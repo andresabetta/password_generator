@@ -6,8 +6,8 @@ def main():
     
     while True:
         try:
-            digits = int(input("Enter password length (min 8): "))
-            if digits >=8:
+            char_count = int(input("Enter password length (min 8): "))
+            if char_count >=8:
                 break
             else:
                 print("Minimum length is 8.")
@@ -16,7 +16,7 @@ def main():
 
     
 
-    print(password_generator(digits))
+    print(password_generator(char_count))
 
 def password_generator(lenght=12):
     letter = string.ascii_letters
