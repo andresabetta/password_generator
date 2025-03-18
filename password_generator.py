@@ -16,7 +16,7 @@ def main():
 
     
 
-    print(password_generator(digitos))
+    print(password_generator(digits))
 
 def password_generator(lenght=12):
     letter = string.ascii_letters
