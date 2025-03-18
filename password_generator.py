@@ -6,8 +6,8 @@ def main():
     
     while True:
         try:
-            digitos = int(input("Enter password length (min 8): "))
-            if digitos >=8:
+            digits = int(input("Enter password length (min 8): "))
+            if digits >=8:
                 break
             else:
                 print("Minimum length is 8.")
